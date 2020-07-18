@@ -5,3 +5,5 @@ read -p "Enter the value for varible B :- " b
 read -p "Enter the value for varible C :- " c
 Value1=$(($a+$b*$c))
 echo $Value1
+Value2=$(($a*$b+$c))
+echo $Value2

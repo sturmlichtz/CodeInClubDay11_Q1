@@ -28,3 +28,16 @@ do
 	done
 done
 echo "Results are sorted in Descending order :- " ${arrayForRandom[@]}
+for ((i=0;i<=$arrayLength;i++))
+do
+	for ((j=$(($i+1)); j<=$arrayLength;j++))
+	do
+		if [[ ${arrayForRandom[$i]} -gt ${arrayForRandom[$j]} ]]
+		then
+		temp=${arrayForRandom[$i]}
+		arrayForRandom[$i]=${arrayForRandom[$j]}
+		arrayForRandom[$j]=$temp
+		fi
+	done
+done
+echo "Results is sorted in Ascending order :- " ${arrayForRandom[@]}

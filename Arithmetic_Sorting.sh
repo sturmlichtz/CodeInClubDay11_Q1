@@ -7,3 +7,5 @@ Value1=$(($a+$b*$c))
 echo $Value1
 Value2=$(($a*$b+$c))
 echo $Value2
+Value3=$(($c+$a/$b))
+echo $Value3

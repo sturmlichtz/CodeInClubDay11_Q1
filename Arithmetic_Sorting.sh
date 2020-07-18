@@ -27,4 +27,4 @@ do
 		fi
 	done
 done
-echo "Results are sorted in Descending order :- " ${arrayForRandom[@]}
+echo "Result is sorted in Descending order :- " ${arrayForRandom[@]}

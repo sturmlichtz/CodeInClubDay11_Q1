@@ -27,8 +27,7 @@ do
 		fi
 	done
 done
-<<<<<<< HEAD
-echo "Results are sorted in Descending order :- " ${arrayForRandom[@]}
+echo "Result is sorted in Descending order :- " ${arrayForRandom[@]}
 for ((i=0;i<=$arrayLength;i++))
 do
 	for ((j=$(($i+1)); j<=$arrayLength;j++))
@@ -42,6 +41,3 @@ do
 	done
 done
 echo "Results is sorted in Ascending order :- " ${arrayForRandom[@]}
-=======
-echo "Result is sorted in Descending order :- " ${arrayForRandom[@]}
->>>>>>> SortInDescendingOrder

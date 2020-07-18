@@ -9,3 +9,5 @@ Value2=$(($a*$b+$c))
 echo $Value2
 Value3=$(($c+$a/$b))
 echo $Value3
+Value4=$(($a%$b+$c))
+echo $Value4
